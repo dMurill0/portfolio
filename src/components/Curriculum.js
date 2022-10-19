@@ -9,6 +9,12 @@ export const Curriculum = () => {
             <h2>Experiencia</h2>
             <ul>
                 <li>Becario en la empresa Infoser Sistemas S.A</li>
+                <li>Desarrollador web en la empresa Indra</li>
+            </ul>
+            <h2>Cursos oficiales</h2>
+            <ul>
+                <li>Curso oficial de programación Java EE, Swing, HTML5, CSS en la escuela CICE</li>
+
             </ul>
             <h2>Conocimientos</h2>
             <ul>

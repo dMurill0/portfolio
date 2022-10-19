@@ -14,7 +14,7 @@ export const Misrutas = () => {
             <HeaderNav></HeaderNav>
 
             {/*     CONTENIDO CENTRAL   */}
-            <section class="content">
+            <section className="content">
                 <Routes>
                     <Route path='/' element={<Navigate to="Inicio" />} />
                     <Route path='/inicio' element={<Inicio />} />
@@ -22,6 +22,12 @@ export const Misrutas = () => {
                     <Route path='/servicios' element={<Servicios />} />
                     <Route path='/curriculum' element={<Curriculum />} />
                     <Route path='/contacto' element={<Contacto />} />
+                    <Route path='*' element={
+                        <div className='page'>
+                            <h1 className='heading'>Error 404</h1>
+                        </div>
+                    } />
+
                 </Routes>
 
             </section>

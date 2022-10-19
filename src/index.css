@@ -25,6 +25,7 @@ code {
   height: 132px;
   border-bottom: 3px solid black;
   margin-bottom: 35px;
+  background: #f5f5f5;
 }
 
 .header .logo {
@@ -154,5 +155,26 @@ input[type="submit"]:hover,
 button:hover {
   background-color: #57bf40;
 }
-.social {
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-item {
+  flex-basis: 30%;
+  flex-grow: 1;
+  margin: 30px;
+}
+.work-item .mask {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+.work-item img {
+  width: 120%;
+}
+
+.social img {
+  height: 48px;
+  width: 48px;
 }
