@@ -12,15 +12,7 @@ export const Contacto = () => {
                 <input type="submit" value="Enviar"></input>
 
             </form>
-            <div className="social">
-                <h2> Enlaces</h2>
-                <ul>
-                    <li><img src='../images/gmail.png' alt='gmail' />Correo electrónico: </li>
-                    <li><img src='../images/github.png' alt='github' />Git-Hub: </li>
-                    <li><img src='../images/linkedin.png' alt="linkedin" />LinkedIn: </li>
-                    <li>Portafolio: </li>
-                </ul>
-            </div>
+
         </div>
     )
 }

@@ -103,7 +103,7 @@ code {
   color: rgb(87, 87, 87);
   font-weight: lighter;
 }
-.home a {
+.home .title a {
   background-color: #fa4529;
   text-decoration: none;
   padding: 5px;
@@ -124,7 +124,11 @@ code {
   font-size: 55px;
   font-weight: bold;
 }
-
+.page-work .mask {
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #ccc;
+}
 .home p {
   color: rgb(87, 87, 87);
 }
@@ -150,7 +154,7 @@ button {
   margin-top: 15px;
   cursor: pointer;
 }
-.home a:hover,
+.home .title a:hover,
 input[type="submit"]:hover,
 button:hover {
   background-color: #57bf40;
@@ -169,12 +173,53 @@ button:hover {
   height: 350px;
   width: 100%;
   overflow: hidden;
+  border: 1px solid #ddd;
+  box-shadow: 0px 5px 15px #ddd;
 }
 .work-item img {
   width: 120%;
+  transition: all 500ms;
 }
-
+.work-item .mask:hover img {
+  width: 150%;
+  margin-right: 30%;
+}
+.work-item span {
+  display: block;
+  margin-top: 35px;
+  color: gray;
+}
+.work-item h2 {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 30px;
+}
+.work-item h3 {
+  display: block;
+  padding-top: 15px;
+  margin-top: 0px;
+  color: #444;
+  border-top: 1px solid #ddd;
+}
+.work-item a {
+  text-decoration: none;
+  color: black;
+  transition: all 300ms;
+}
+.work-item a:hover {
+  color: #fa4529;
+}
+.social {
+  display: flex;
+  margin-left: 30px;
+}
+.heading h4 {
+  align-self: flex-start;
+}
 .social img {
-  height: 48px;
-  width: 48px;
+  height: 25px;
+  width: 25px;
+  margin: 5px;
 }

@@ -7,6 +7,7 @@ import { Servicios } from "../components/Servicios";
 import { Contacto } from "../components/Contacto";
 import { HeaderNav } from '../components/layout/HeaderNav';
 import { Footer } from '../components/layout/Footer';
+import { Proyecto } from '../components/Proyecto';
 export const Misrutas = () => {
     return (
         <BrowserRouter>
@@ -22,6 +23,7 @@ export const Misrutas = () => {
                     <Route path='/servicios' element={<Servicios />} />
                     <Route path='/curriculum' element={<Curriculum />} />
                     <Route path='/contacto' element={<Contacto />} />
+                    <Route path='/proyecto/:id' element={<Proyecto />} />
                     <Route path='*' element={
                         <div className='page'>
                             <h1 className='heading'>Error 404</h1>
