@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Curriculum = () => {
     return (
-        <div className='page'>
+        <div className='pageCurriculum'>
             <h1 className='heading'>Curriculum</h1>
 
 

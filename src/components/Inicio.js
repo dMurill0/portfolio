@@ -11,7 +11,7 @@ export const Inicio = () => {
             </h1>
             <h3 className='title'>
                 Te ayudo a crear tu sitio o aplicación web
-                para alcanzar <strong>mayor visibilidad y relevancia</strong> en Internet. <Link to="/Contacto">Contacta conmigo.</Link>
+                para alcanzar <strong>mayor visibilidad y relevancia</strong> en Internet. <Link to="/Contacto">Contacta conmigo</Link>
             </h3>
             <section className='last-works'>
                 <h2 className='heading'>Algunos de mis proyectos</h2>
