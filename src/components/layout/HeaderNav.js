@@ -5,8 +5,10 @@ export const HeaderNav = () => {
     return (
         <header className='header'>
             <div className='logo'>
-                <span>  D </span>
+                <img src={"/images/face.jpg"} alt="face" />
                 <h3>Daniel Murillo Garzón</h3>
+
+
 
             </div>
             <nav>

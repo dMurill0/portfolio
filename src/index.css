@@ -46,7 +46,12 @@ code {
   font-weight: 300;
   text-transform: uppercase;
 }
-
+.header .logo img {
+  margin: 15px;
+  height: 90px;
+  width: 72px;
+  border-radius: 55px;
+}
 .header nav {
   flex-grow: 1;
 }

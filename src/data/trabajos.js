@@ -4,7 +4,7 @@ export const trabajos = [
         "nombre": "API Google",
         "url": "",
         "tecnologias": "Wordpress,API",
-        "categorias": "Desarollo web",
+        "categorias": "Desarrollo web",
         "descripcion": "Implementación del buscador de Google en la web de la empresa Infoser Sistemas S.A."
     },
     {
@@ -20,15 +20,23 @@ export const trabajos = [
         "nombre": "Saboteur",
         "url": "",
         "tecnologias": "HTML,CSS,JS",
-        "categorias": "Desarollo web",
+        "categorias": "Desarrollo web",
         "descripcion": "Implementación del juego Saboteur."
     },
     {
         "id": "DanielMurilloWeb4",
-        "nombre": "Daniel Murillo Web",
+        "nombre": "EasyCar",
         "url": "",
-        "tecnologias": "HTML,CSS,JS",
-        "categorias": "Desarollo web",
-        "descripcion": "Nisi ipsum in nulla sint culpa aliqua qui esse cillum eiusmod. Nisi anim sint eu id est duis ad culpa esse voluptate aliquip. Id eiusmod minim aliqua sint magna aliqua labore et aliquip labore consectetur. Aliqua esse officia Lorem ea commodo excepteur sunt sint ullamco aute. In officia mollit fugiat aute incididunt fugiat deserunt laborum eiusmod est quis. Et eu id mollit occaecat reprehenderit."
+        "tecnologias": "Java EE, Swing, HTML5, CSS",
+        "categorias": "Desarrollo web",
+        "descripcion": "Portal para la compra-venta de vehículos. Los usuarios pueden subir los datos de sus vehículos con fotos. Otros usuarios interesados pueden contactar con el vendedor en concreto a través de la web."
+    },
+    {
+        "id": "DanielMurilloWeb5",
+        "nombre": "Portal hosting",
+        "url": "",
+        "tecnologias": "Wordpress",
+        "categorias": "Desarrollo web",
+        "descripcion": "Página que muestra en iFrames diferentes páginas orientadas al hosting de la empresa Infoser Sistems S.A."
     }
 ];
