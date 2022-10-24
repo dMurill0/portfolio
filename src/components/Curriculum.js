@@ -5,7 +5,6 @@ export const Curriculum = () => {
         <div className='pageCurriculum'>
             <h1 className='heading'>Curriculum</h1>
 
-
             <h2>Experiencia</h2>
             <ul>
                 <li>Becario en la empresa Infoser Sistemas S.A</li>
