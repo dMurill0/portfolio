@@ -17,10 +17,10 @@ export const About = () => {
                 </div>
 
             </section>
-            <div className='specilities'>
-                <h1>Mis especialidades</h1>
-                <section className='specialities'>
+            <div >
 
+                <section className='specialities'>
+                    <h1>Mis especialidades</h1>
                     <div className='speciality'>
                         <img src={'/images/web.png'} alt="web"></img>
                         <h2>Desarrollo web</h2>

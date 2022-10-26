@@ -9,11 +9,11 @@ export const trabajos = [
     },
     {
         "id": "DanielMurilloWeb2",
-        "nombre": "InstaRecipes",
+        "nombre": "MovieDb App",
         "url": "",
-        "tecnologias": "Angular,HTML,CSS,JS,Spring,MySQL",
-        "categorias": "FullStack",
-        "descripcion": "Se trata de una red social donde un usuario puede subir sus recetas, darle like o comentar otras recetas. Puede buscar recetas gracias a todos los filtros y guardar sus favoritas."
+        "tecnologias": "HTML,CSS,JS,API, Boostrap",
+        "categorias": "Front-end,API",
+        "descripcion": "Aplicación que muestra las películas más populares y nos muestra la imagen de portada, puntuación en imdb y la sinospsis. Además se puede realizar una búsqueda entre todas las películas. "
     },
     {
         "id": "DanielMurilloWeb3",
@@ -38,5 +38,13 @@ export const trabajos = [
         "tecnologias": "Wordpress",
         "categorias": "Desarrollo web",
         "descripcion": "Página que muestra en iFrames diferentes páginas orientadas al hosting de la empresa Infoser Sistems S.A."
+    },
+    {
+        "id": "DanielMurilloWeb6",
+        "nombre": "Instarecipes",
+        "url": "",
+        "tecnologias": "Html,Css,Angular,Spring,API",
+        "categorias": "Desarrollo web",
+        "descripcion": "Se trata de una red social donde un usuario puede subir sus recetas, darle like o comentar otras recetas. Puede buscar recetas gracias a todos los filtros y guardar sus favoritas."
     }
 ];
