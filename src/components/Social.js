@@ -1,16 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export const Social = () => {
     return (
-        <div className='heading'>
 
-            <div className='social'>
-                <img src='../images/gmail.png' alt='gmail' placeholder='sittingbout@gmail.com' />   <br />
-                <a href='https://twitter.com/muriPKR'><img src='../images/twitter.png' alt='twitter' /></a><br />
-                <a href='https://github.com/dMurill0'><img src='../images/github.png' alt='github' /></a><br />
-                <a href='https://www.linkedin.com/in/daniel-murillo-garz%C3%B3n-0bb8b014b/'><img src='../images/linkedin.png' alt="linkedin" /></a>
+        <div className='social' >
+            <a href='https://twitter.com/muriPKR'><FontAwesomeIcon icon={faTwitter} color="#445964" size='2x' fixedWidth /></a>
+            <a href='https://github.com/dMurill0'><FontAwesomeIcon icon={faGithub} color="#445964" size='2x' fixedWidth /></a>
+            <a href='https://www.linkedin.com/in/daniel-murillo-garz%C3%B3n-0bb8b014b/'><FontAwesomeIcon icon={faLinkedin} color="#445964" size='2x' fixedWidth />  </a>
 
-            </div>
         </div>
+
     )
 }

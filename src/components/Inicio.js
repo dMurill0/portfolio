@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { ListadoTrabajos } from './ListadoTrabajos';
-import { Social } from './Social';
+
 
 export const Inicio = () => {
     return (
@@ -16,7 +16,7 @@ export const Inicio = () => {
 
                 </div>
                 <div className='codImg'>
-                    <img src='/images/coding.jpg' alt='coding' height="100%" width="100%" />
+                    <img src='/images/coding.jpg' alt='coding' />
                 </div>
 
             </div>
