@@ -44,7 +44,6 @@ code {
   margin-top: -8px;
 }
 .header .logo h3 {
-  display: block;
   flex-basis: 60px;
   margin-left: 10px;
   margin-top: 30px;
@@ -70,9 +69,9 @@ code {
 .header li {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 17px;
-  margin-left: 15px;
-  margin-right: 15px;
+  font-size: 1.7vw;
+  margin-left: 1vw;
+  margin-right: 1.2vw;
 }
 .header li a {
   color: black;
@@ -148,7 +147,8 @@ code {
   font-weight: bold;
 }
 .page-work .mask {
-  height: 300px;
+  height: 200px;
+  width: 200px;
   overflow: hidden;
   box-shadow: 0px 0px 20px #ccc;
 }
@@ -263,6 +263,7 @@ button:hover {
   margin: 0;
   padding: 0;
   display: flex;
+  width: 100%;
 }
 .pageAbout h1 {
   font-size: 1.5em;
@@ -280,40 +281,41 @@ button:hover {
   flex-direction: column;
 }
 .aboutP {
-  margin-left: 3rem;
-  width: 60%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15vw;
 }
-.aboutP h1 {
+.aboutP h1,
+.specialities h1,
+.last-works h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 250%;
   color: #445964;
-  margin-left: 15vw;
+  margin-left: 8vw;
 }
-.aboutP p {
+.aboutP p,
+.last-works p {
   font-family: "Roboto", sans-serif;
-  margin-left: 15vw;
-  color: #445964;
+  margin-left: 5vw;
 }
 .aboutP img {
-  margin-left: 20vw;
-  width: fit-content;
+  margin-left: 12vw;
+  width: 12vw;
+  height: 14vw;
 }
 .specialities {
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 10%;
   padding: 2%;
   background-color: #f5f5f5;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .specialities h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 150%;
-  color: #445964;
-  margin-left: 40%;
+  margin-left: 15vw;
 }
 .speciality {
   background-color: white;
@@ -322,8 +324,7 @@ button:hover {
   border-radius: 15px;
   text-align: center;
 }
-.speciality h2 {
-}
+
 .speciality p {
   margin: 2rem;
   font-size: small;
@@ -331,6 +332,8 @@ button:hover {
 .specialities img {
   border: none;
   margin-top: 3rem;
+  width: 12vw;
+  height: 14vw;
 }
 
 .skills {
@@ -410,6 +413,16 @@ button:hover {
   margin: 0 auto;
   margin-left: 13%;
 }
+.last-works {
+  margin-top: 5%;
+}
+.last-works h1 {
+  margin-left: 20vw;
+}
+.last-works p {
+  margin-left: 10vw;
+}
+
 @media (max-width: 920px) {
   .logo {
     display: none;
@@ -420,5 +433,13 @@ button:hover {
   }
   .codImg img {
     display: none;
+  }
+  @media (max-width: 760px) {
+    .header .logo h3 {
+      display: none;
+    }
+    .header .logo img {
+      margin-left: 4vw;
+    }
   }
 }

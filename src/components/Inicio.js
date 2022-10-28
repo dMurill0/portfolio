@@ -22,10 +22,9 @@ export const Inicio = () => {
             </div>
 
             <section className='last-works'>
-                <h2 className='heading'>Algunos de mis proyectos</h2>
-                <p>Estos son algunos de mis ultimos proyectos de <strong>desarrollo web</strong></p>
+                <h1>Algunos de mis proyectos</h1>
+                <p>Estos son algunos de mis ultimos proyectos de <strong>desarrollo web</strong> que he realizado en los últimos meses.</p>
                 <ListadoTrabajos limite="2" />
-
             </section>
         </>
     )

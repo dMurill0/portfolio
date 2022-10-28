@@ -14,7 +14,7 @@ export const About = () => {
                 </div>
             </section>
             <section className='specialities'>
-                <h1>Mis especialidades</h1>
+                <h1>Mis especialidades</h1><br />
                 <div className='speciality'>
                     <img src={'/images/web.png'} alt="web"></img>
                     <h2>Desarrollo web</h2>
