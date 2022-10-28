@@ -288,6 +288,7 @@ button:hover {
 }
 .aboutP h1,
 .specialities h1,
+.skills h1,
 .last-works h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -310,17 +311,18 @@ button:hover {
   margin-top: 10%;
   padding: 2%;
   background-color: #f5f5f5;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .specialities h1 {
-  margin-left: 15vw;
+  margin-left: 21vw;
 }
 .speciality {
   background-color: white;
   margin: 3rem;
-  width: 30%;
+
   border-radius: 15px;
   text-align: center;
 }
@@ -348,7 +350,10 @@ button:hover {
   height: 4rem;
 }
 .skills img:hover {
-  background: transparent;
+  background-color: transparent;
+  width: 6rem;
+  height: 6rem;
+  transition: all 1s;
 }
 .intro {
   display: flexbox;
@@ -429,8 +434,6 @@ button:hover {
   }
 }
 @media (max-width: 950px) {
-  .intro {
-  }
   .codImg img {
     display: none;
   }
