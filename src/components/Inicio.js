@@ -25,7 +25,7 @@ export const Inicio = () => {
                         <span>.</span>
                     </div>
                     <h3>Puedo ayudarte a crear tu sitio web y alcanzar mayor visibilidad y relevancia en Internet</h3>
-                    <Link to="/Contacto"> Contacta conmigo</Link>
+                    <Link to="/Contacto"> Contacta</Link>
 
                 </div>
                 <div className='codImg'>
