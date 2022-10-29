@@ -5,7 +5,6 @@ export const About = () => {
         <div className='pageAbout'>
             <section className='flex-container'>
                 <div className='aboutP'>
-                    <h1>Daniel Murillo</h1>
                     <img src={"/images/face.jpg"} alt="profile" />
                     <p>
                         Hola, soy <strong>Daniel Murillo Garzón</strong>, un desarrollador front-end que ha realizado numerosos proyectos tanto en la universidad como proyectos propios de manera autodidacta. También tengo experiencia como desarrollador Full-Stack.

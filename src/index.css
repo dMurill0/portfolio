@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Freehand&family=Lato&family=Patua+One&family=Roboto:wght@500;700;900&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
 * {
   font-family: poppinsregular, Poppins, Nanum Gothic, sans-serif;
 }
 body {
   margin: 0;
-
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+  font-weight: 600;
+}
+h3,
+p {
+  font-weight: 500;
 }
 
 code {
@@ -68,10 +76,10 @@ code {
 }
 .header li {
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   margin-left: 1vw;
   margin-right: 1.2vw;
+  font-weight: 700;
 }
 .header li a {
   color: black;
@@ -137,6 +145,11 @@ code {
   font-weight: 500;
   color: black;
   margin-bottom: 0px;
+}
+.pageContact .socialDiv {
+  margin-top: 10%;
+  position: static;
+  font-size: 1.4rem;
 }
 .pageCurriculum h1 {
   font-size: 55px;
@@ -266,7 +279,7 @@ button:hover {
   width: 100%;
 }
 .pageAbout h1 {
-  font-size: 1.5em;
+  font-size: 5.5vw;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
@@ -286,20 +299,22 @@ button:hover {
   flex-wrap: wrap;
   margin-left: 15vw;
 }
-.aboutP h1,
+
 .specialities h1,
 .skills h1,
 .last-works h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
-  font-size: 250%;
+  font-size: 150%;
   color: #445964;
   margin-left: 8vw;
+  margin-top: 10%;
 }
 .aboutP p,
 .last-works p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-left: 5vw;
+  margin-top: 10%;
 }
 .aboutP img {
   margin-left: 12vw;
@@ -317,7 +332,7 @@ button:hover {
   justify-content: space-evenly;
 }
 .specialities h1 {
-  margin-left: 21vw;
+  margin-left: 15vw;
 }
 .speciality {
   background-color: white;
@@ -325,6 +340,9 @@ button:hover {
 
   border-radius: 15px;
   text-align: center;
+}
+.speciality h2 {
+  color: #445964;
 }
 
 .speciality p {
@@ -354,6 +372,16 @@ button:hover {
   width: 6rem;
   height: 6rem;
   transition: all 1s;
+}
+.contact {
+  margin: 0 auto;
+}
+.contact h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 150%;
+  color: #445964;
+  margin-top: 10%;
 }
 .intro {
   display: flexbox;
@@ -427,7 +455,32 @@ button:hover {
 .last-works p {
   margin-left: 10vw;
 }
+.socialDiv {
+  margin-top: 5%;
+}
+.socialDiv p {
+  font-size: 1.2vw;
+}
 
+.anim {
+  position: relative;
+}
+.anim span {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: inline-block;
+  font-size: 4vw;
+  color: rgb(9, 9, 9);
+  text-transform: uppercase;
+  animation: flip 3s infinite;
+  animation-delay: 0.8s;
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
 @media (max-width: 920px) {
   .logo {
     display: none;
@@ -436,6 +489,10 @@ button:hover {
 @media (max-width: 950px) {
   .codImg img {
     display: none;
+  }
+  .intro {
+    width: 100%;
+    margin-left: 30%;
   }
   @media (max-width: 760px) {
     .header .logo h3 {

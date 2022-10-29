@@ -6,7 +6,7 @@ export const HeaderNav = () => {
         <header className='header'>
             <div className='logo'>
                 <img src={"/images/logo.jpeg"} alt="logo" />
-                <h3>Daniel Murillo Garzón</h3>
+                <h3>Daniel Murillo</h3>
             </div>
             <nav>
                 <ul>

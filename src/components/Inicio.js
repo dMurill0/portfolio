@@ -9,8 +9,21 @@ export const Inicio = () => {
             <div className="home">
                 <div className='intro'>
                     <h1>
-                        Soy Daniel Murillo, <strong>desarrollador Front-end</strong>
+                        Soy Daniel Murillo, <strong>desarrollador</strong>
                     </h1>
+                    <div className="anim">
+                        <span>F</span>
+                        <span>r</span>
+                        <span>o</span>
+                        <span>n</span>
+                        <span>t</span>
+                        <span>-</span>
+                        <span>t</span>
+                        <span>e</span>
+                        <span>n</span>
+                        <span>d</span>
+                        <span>.</span>
+                    </div>
                     <h3>Puedo ayudarte a crear tu sitio web y alcanzar mayor visibilidad y relevancia en Internet</h3>
                     <Link to="/Contacto"> Contacta conmigo</Link>
 
