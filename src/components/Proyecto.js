@@ -13,15 +13,17 @@ export const Proyecto = () => {
     return (
         <div className='page'>
             <div className='mask'>
+                <h1 className='heading'>{proyecto.nombre}</h1>
+                <img src={"/images/" + proyecto.id + ".jpg"} alt="" />
+                <h3>{proyecto.tecnologias}</h3>
+                <p>{proyecto.descripcion}</p>
+                {proyecto.url !== "" ? (
+                    <a href={proyecto.url}>Ir al proyecto</a>
+                ) : (
+                    <a hidden="true" href={proyecto.url}>Ir al proyecto</a>
+                )}
 
             </div>
-            <h1 className='heading'>{proyecto.nombre}</h1>
-
-            <img src={"/images/" + proyecto.id + ".jpg"} alt="" />
-
-            <p>{proyecto.tecnologias}</p>
-            <p>{proyecto.descripcion}</p>
-            <a href={'https://' + proyecto.url}>Ir al proyecto</a>
         </div>
     )
 }

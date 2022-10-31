@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
 * {
   font-family: poppinsregular, Poppins, Nanum Gothic, sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -20,6 +24,9 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+a {
+  cursor: pointer;
 }
 
 .layout {
@@ -93,15 +100,18 @@ code {
 
 .footer {
   text-align: center;
+  align-items: center;
   font-size: 14px;
-  margin-top: 15px;
+  margin: 0 auto;
   border-top: 3px solid black;
-  padding-top: 25px;
   background: #f5f5f5;
   min-height: 40px;
   line-height: 7px;
   color: #444;
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
 }
 .footer h5 {
   margin-left: 50%;
@@ -133,13 +143,12 @@ code {
   color: white;
   transition: all 300ms;
 }
-.pageContact,
+
 .pageService,
 .pageCurriculum {
   margin-left: 33%;
 }
 .page .heading,
-.pageContact,
 .home .heading {
   font-size: 40px;
   font-weight: 500;
@@ -147,8 +156,9 @@ code {
   margin-bottom: 0px;
 }
 
-.pageContact .socialDiv {
-  margin-top: 10%;
+.socialDiv {
+  height: 90vh;
+  margin-top: 2%;
   position: static;
   font-size: 1.4vw;
 }
@@ -166,11 +176,26 @@ code {
   overflow: hidden;
   box-shadow: 0px 0px 20px #ccc;
 }
+.mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 10px;
+}
 .mask img {
   border: 2px solid #445964;
+  width: 80%;
+  margin: 20px 0px;
+}
+.mask a {
+  color: #445964;
+  font-weight: 800;
+  text-decoration: none;
 }
 .home p {
   color: rgb(87, 87, 87);
+  width: 50%;
 }
 
 input[type="text"],
@@ -253,9 +278,6 @@ button:hover {
   color: #445964;
 }
 .social {
-  align-items: flex-end;
-  justify-content: flex-start;
-  margin-left: 30px;
 }
 
 .heading h4 {
@@ -297,10 +319,9 @@ button:hover {
   transition: all 300ms;
 }
 .aboutP {
-  width: 50%;
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 15vw;
+  flex-flow: column wrap;
+  align-items: flex-start;
 }
 
 .specialities h1,
@@ -366,6 +387,11 @@ button:hover {
   justify-content: center;
   flex-direction: row;
 }
+.skill-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
 .skills img {
   border: none;
   margin: 1rem;
@@ -378,26 +404,42 @@ button:hover {
   height: 6rem;
   transition: all 1s;
 }
-.contact {
+.pageContact {
   margin: 0 auto;
+  height: 120vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  padding: 0;
+}
+.pageContact img {
+  width: 50%;
+  height: max-content;
+}
+.contact {
+  margin-left: 5%;
+  width: 40%;
 }
 .contact h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 4.5vw;
   color: #445964;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .contact input {
-  width: 12.2vw;
+  width: 14.2vw;
+  height: 3em;
 }
 .contact textarea {
-  width: 30%;
+  width: 18vw;
 }
 .contact input[type="submit"] {
-  width: 15%;
+  width: 20%;
+  float: left;
+  align-items: center;
 
-  margin: 0;
+  padding: 0;
 }
 .contact .intro {
   display: flexbox;
@@ -511,6 +553,16 @@ button:hover {
   .intro {
     width: 100%;
     margin-left: 30%;
+  }
+
+  @media (max-width: 1200px) {
+    .pageContact img {
+      display: none;
+    }
+    .pageContact {
+      flex-flow: column wrap;
+      align-content: center;
+    }
   }
   @media (max-width: 760px) {
     .header .logo h3 {

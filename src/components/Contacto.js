@@ -13,10 +13,7 @@ export const Contacto = () => {
                 <textarea placeholder='Motivo de contacto'></textarea>
                 <input type="submit" value="Enviar"></input>
             </form>
-            <div className='socialDiv'>
-                <p>Contacta conmigo en mis redes sociales</p>
-                <Social />
-            </div>
+            <img src='/images/contact.jpg' alt=''></img>
 
         </div>
     )

@@ -7,7 +7,7 @@ export const About = () => {
                 <div className='aboutP'>
                     <img src={"/images/face.jpg"} alt="profile" />
                     <p>
-                        Hola, soy <strong>Daniel Murillo Garzón</strong>, un desarrollador front-end que ha realizado numerosos proyectos tanto en la universidad como proyectos propios de manera autodidacta. También tengo experiencia como desarrollador Full-Stack.
+                        Me llamo <strong>Daniel Murillo Garzón</strong>, un desarrollador front-end que ha realizado numerosos proyectos tanto en la universidad como proyectos propios de manera autodidacta. También tengo experiencia como desarrollador Full-Stack.
                     </p>
                 </div>
             </section>
@@ -26,14 +26,16 @@ export const About = () => {
             </section>
             <div className='skills'>
                 <h1>Skills</h1>
-                <img src={'/images/html.png'} alt="html"></img>
-                <img src={'/images/css.png'} alt="css"></img>
-                <img src={'/images/javascript.png'} alt="js"></img>
-                <img src={'/images/react2.png'} alt="react"></img>
-                <img src={'/images/angular.png'} alt="angular"></img>
-                <img src={'/images/bootstrap.png'} alt="bootstrap"></img>
-                <img src={'/images/node.png'} alt="node"></img>
-                <img src={'/images/ts.png'} alt="ts"></img>
+                <div className='skill-images'>
+                    <img src={'/images/html.png'} alt="html"></img>
+                    <img src={'/images/css.png'} alt="css"></img>
+                    <img src={'/images/javascript.png'} alt="js"></img>
+                    <img src={'/images/react2.png'} alt="react"></img>
+                    <img src={'/images/angular.png'} alt="angular"></img>
+                    <img src={'/images/bootstrap.png'} alt="bootstrap"></img>
+                    <img src={'/images/node.png'} alt="node"></img>
+                    <img src={'/images/ts.png'} alt="ts"></img>
+                </div>
             </div>
 
 
