@@ -13,16 +13,19 @@ export const About = () => {
             </section>
             <section className='specialities'>
                 <h1>Mis especialidades</h1><br />
-                <div className='speciality'>
-                    <img src={'/images/web.png'} alt="web"></img>
-                    <h2>Desarrollo web</h2>
-                    <p>Creo webs con una buena experiencia de usuario. Para ello busco que sean visualmente agradables y responsive</p>
+                <div className='specialityBox'>
+                    <div className='speciality'>
+                        <img src={'/images/web.png'} alt="web"></img>
+                        <h2>Desarrollo web</h2>
+                        <p>Creo webs con una buena experiencia de usuario. Para ello busco que sean visualmente agradables y responsive</p>
+                    </div>
+                    <div className='speciality'>
+                        <img src={'/images/ui.png'} alt="ui"></img>
+                        <h2>Interfaces </h2>
+                        <p>También me gusta crear interfaces de usuario apropiadas a los gustos de los usuarios</p>
+                    </div>
                 </div>
-                <div className='speciality'>
-                    <img src={'/images/ui.png'} alt="ui"></img>
-                    <h2>Interfaces </h2>
-                    <p>También me gusta crear interfaces de usuario apropiadas a los gustos de los usuarios</p>
-                </div>
+
             </section>
             <div className='skills'>
                 <h1>Skills</h1>

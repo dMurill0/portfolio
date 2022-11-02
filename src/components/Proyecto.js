@@ -11,14 +11,15 @@ export const Proyecto = () => {
         setProyecto(proyecto[0]);
     }, []);
     return (
-        <div className='page'>
+        <div className='pageP'>
             <div className='mask'>
-                <h1 className='heading'>{proyecto.nombre}</h1>
+                <h1>{proyecto.nombre}</h1>
                 <img src={"/images/" + proyecto.id + ".jpg"} alt="" />
                 <h3>{proyecto.tecnologias}</h3>
                 <p>{proyecto.descripcion}</p>
                 {proyecto.url !== "" ? (
-                    <a href={proyecto.url}>Ir al proyecto</a>
+
+                    <a href={proyecto.url} className="btn">Ir al proyecto</a>
                 ) : (
                     <a hidden="true" href={proyecto.url}>Ir al proyecto</a>
                 )}
